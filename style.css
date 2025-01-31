@@ -1,0 +1,87 @@
+body {
+    background-color: #49cade;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-section {
+    display: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+button {
+    background-color: #3e67a8;
+    color:#e1e7eb;
+    border: 0px;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#tic-tac-toe .tic-tac-toe-row {
+    display: flex;
+}
+
+.tic-tac-toe-cell {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+memory-match {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.memory-card {
+    border: 2px;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #232323;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#hangman-word {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.quiz-option {
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    padding: 10px 20px;
+}
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cccccc;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
